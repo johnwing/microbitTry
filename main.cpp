@@ -1,6 +1,6 @@
 #include "pxt.h"
 using namespace pxt;
-namespace main {
+namespace tools {
 
    int circleArea(int radius)
    {
