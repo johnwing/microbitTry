@@ -16,4 +16,9 @@ namespace tools {
     export function ledOfRectangle(length: number, width:number): void {
         basic.showNumber(length*width)
     }
+
+    export function circleArea(radius: number): number
+    {
+        return
+    }
 }
