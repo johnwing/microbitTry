@@ -17,8 +17,8 @@ namespace tools {
         basic.showNumber(length*width)
     }
 
-    export function circleArea(radius: number): number
+    function circleArea(radius: number): number
     {
-        return
+        
     }
 }
