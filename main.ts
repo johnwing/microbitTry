@@ -13,15 +13,15 @@ namespace tools {
     */
     //% blockId="ledOfRectangle" block="show area of rectangle length %length|width %width"
     //% blockGap=2 weight=1
-    export function ledOfRectangle(length: number, width:number): void {
-        basic.showNumber(length*width)
-    }
+
    /** export function ledOfRectangle2(length: number, width:number): void {
         basic.showNumber(length*width)
     }*/
 
-    export function circleArea(): void {
+    export function circleArea(length: number, width:number): void {
         basic.showNumber(3)
     }
-
+    export function ledOfRectangle(length: number, width:number): void {
+        basic.showNumber(length*width)
+    }
 }
