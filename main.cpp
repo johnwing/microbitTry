@@ -2,7 +2,7 @@
 using namespace pxt;
 namespace tools {
 
-   void circleArea()
+   void ledOfRectangle()
    {
     	uBit.display.print("HELLO!");
    }
