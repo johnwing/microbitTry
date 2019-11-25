@@ -21,7 +21,7 @@ namespace tools {
     }*/
 
     export function circleArea(): void {
-        return
+        basic.showNumber(3)
     }
 
 }
