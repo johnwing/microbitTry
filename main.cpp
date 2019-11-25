@@ -2,9 +2,9 @@
 using namespace pxt;
 namespace tools {
 
-   double circleArea(double radius)
+   double circleArea()
    {
-    return 3.14*radius*radius;
+    	uBit.display.print("HELLO!");
    }
 }
 

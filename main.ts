@@ -16,6 +16,12 @@ namespace tools {
     export function ledOfRectangle(length: number, width:number): void {
         basic.showNumber(length*width)
     }
+   /** export function ledOfRectangle2(length: number, width:number): void {
+        basic.showNumber(length*width)
+    }*/
 
+    export function obloqDisDisplay(): void {
+        return
+    }
 
 }
