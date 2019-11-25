@@ -1,8 +1,8 @@
 #include "pxt.h"
 using namespace pxt;
 namespace tools {
-
-   void ledOfRectangle()
+	//%
+   void obloqDisDisplay()
    {
     	uBit.display.print("HELLO!");
    }
