@@ -20,7 +20,7 @@ namespace tools {
         basic.showNumber(length*width)
     }*/
 
-    export function obloqDisDisplay(): void {
+    export function circleArea(): void {
         return
     }
 
