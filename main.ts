@@ -8,14 +8,5 @@ namespace tools {
     export function areaOfTriangle(length: number, width:number): number {
         return length*width
     }
-    /**
-    * 計算長方形面積，不回傳，只顯示在LED
-    */
-
-
-   /** export function ledOfRectangle2(length: number, width:number): void {
-        basic.showNumber(length*width)
-    }*/
-
 
 }
