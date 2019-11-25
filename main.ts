@@ -14,7 +14,7 @@ namespace tools {
     //% shim=tools::obloqDisDisplay
     //% blockId="obloqDisDisplay" block="area of rectangle"
     //% blockGap=2 weight=0 blockExternalInputs=true
-    function obloqDisDisplay(): void {
+    export function obloqDisDisplay(): void {
         return
     }
 }
