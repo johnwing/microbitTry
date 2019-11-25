@@ -18,8 +18,8 @@ namespace tools {
         basic.showNumber(length*width)
     }*/
 
-    export function circleArea(length: number, width:number): void {
-        basic.showNumber(3)
+    export function ledOfRectangle2(length: number, width:number): void {
+        basic.showNumber(length*width)
     }
     export function ledOfRectangle(length: number, width:number): void {
         basic.showNumber(length*width)
