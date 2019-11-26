@@ -14,7 +14,7 @@ namespace tools {
     
     //% blockId="obloqDisDisplay" block="area of rectangle"
     //% blockGap=2 weight=0 blockExternalInputs=true
-    export function obloqDisDisplay(length: number, width:number): void{
+    export function obloqDisDisplay(): void{
         basic.showNumber(10)
     }
 }
