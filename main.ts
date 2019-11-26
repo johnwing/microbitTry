@@ -8,12 +8,14 @@ namespace tools {
     export function areaOfRectangle(length: number, width:number): number {
         return length*width
     }
+
+
     /**
     * 計算長方形面積，不回傳，只顯示在LED
     */
     
     //% blockId="obloqDisDisplay" block="area of rectangle"
-    //% blockGap=2 weight=0 blockExternalInputs=true
+    //% blockGap=0 weight=1 blockExternalInputs=false
     export function obloqDisDisplay(): void{
         basic.showNumber(10)
     }
