@@ -11,10 +11,10 @@ namespace tools {
     /**
     * 計算長方形面積，不回傳，只顯示在LED
     */
-    //% shim=tools::obloqDisDisplay
+    
     //% blockId="obloqDisDisplay" block="area of rectangle"
     //% blockGap=2 weight=0 blockExternalInputs=true
-    export function obloqDisDisplay(): void {
-        return
+    export function obloqDisDisplay(length: number, width:number): void{
+        basic.showNumber(10)
     }
 }
