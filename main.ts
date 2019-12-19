@@ -1,22 +1,15 @@
-//% weight=0 color=#3CB371 icon="\uf0ad" block="Tools"
-namespace tools {
-    /**
-    * 計算長方形面積，並回傳
-    */
-    //% blockId="areaOfRectangle" block="area of rectangle length %length|width %width"
-    //% blockGap=2 weight=0 blockExternalInputs=true
-    export function areaOfRectangle(length: number, width:number): number {
-        return length*width
-    }
-
-
-    /**
-    * 計算長方形面積，不回傳，只顯示在LED
-    */
+namespace basic2 {
     
-    //% blockId="obloqDisDisplay" block="area of rectangle"
-    //% blockGap=0 weight=1 blockExternalInputs=false
-    export function obloqDisDisplay(): void{
-        basic.showNumber(10)
+    /**
+     * Scroll a number on the screen. If the number fits on the screen (i.e. is a single digit), do not scroll.
+     * @param interval speed of scroll; eg: 150, 100, 200, -100
+     */
+    //% help=basic/show-number
+    //% weight=96
+    //% blockId=device_show_number block="show|number %number" blockGap=8
+    //% async
+    //% parts="ledmatrix" interval.defl=150
+    export function showNumber(value: number, interval?: number) {
+        showString(Math.roundWithPrecision(value, 2).toString(), interval);
     }
 }
